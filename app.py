@@ -86,7 +86,7 @@ Cite exact numbers."""
                 )
                 
                 st.subheader(f"📋 Investment Analysis - {ticker}")
-                st.markdown(message.content[0].text)
+                st.write(message.content[0].text)
             
             st.success("✅ Analysis complete!")
 
