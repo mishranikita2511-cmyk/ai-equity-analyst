@@ -86,9 +86,7 @@ Cite exact numbers."""
                 )
                 
                 st.subheader(f"📋 Investment Analysis - {ticker}")
-                for block in message.content:
-                    if hasattr(block, 'text'):
-                        st.markdown(block.text)
+                st.markdown(message.content[0].text)
             
             st.success("✅ Analysis complete!")
 
