@@ -1,0 +1,108 @@
+# 📈 AI Equity Analyst
+
+**Professional Stock Analysis Powered by Claude AI**
+
+An intelligent stock analyzer that uses Claude AI to provide investment recommendations for US and Indian stocks. Get financial metrics, AI-generated analysis, and investment theses in seconds.
+
+---
+
+## 🎯 Features
+
+✅ **Real-Time Stock Data** - US stocks via Alpha Vantage, Indian stocks via yfinance  
+✅ **Claude AI Analysis** - Professional investment recommendations  
+✅ **Financial Metrics Dashboard** - Market Cap, PE Ratio, Profit Margin, and more  
+✅ **Investment Recommendations** - BUY/HOLD/SELL with reasoning  
+✅ **Multi-Market Support** - US stocks (AAPL, MSFT) + Indian stocks (RELIANCE.NS, INFY.NS)  
+
+---
+
+## 🚀 Quick Start
+
+### Option 1: Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/mishranikita2511-cmyk/ai-equity-analyst.git
+cd ai-equity-analyst
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
+```
+
+### Option 2: Try Live Demo
+Visit: https://ai-equity-analyst2511.streamlit.app
+
+---
+
+## 🔑 API Keys Required
+
+### 1. **Anthropic API Key** (Free)
+- Go to: https://console.anthropic.com/
+- Create an account
+- Generate API key
+- Get free credits for testing
+
+### 2. **Alpha Vantage API Key** (Free)
+- Go to: https://www.alphavantage.co/
+- Request free API key
+- No credit card needed
+
+Once you have the keys:
+1. Run the app
+2. Paste keys in the sidebar
+3. Enter a stock ticker and click **Analyze**
+
+---
+
+## 📊 Stock Ticker Examples
+
+### US Stocks
+- `AAPL` - Apple
+- `MSFT` - Microsoft
+- `TSLA` - Tesla
+- `GOOGL` - Google
+
+### Indian Stocks
+- `RELIANCE.NS` - Reliance Industries
+- `INFY.NS` - Infosys
+- `TCS.NS` - Tata Consultancy Services
+- `HDFC.NS` - HDFC Bank
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Streamlit (Python web framework)
+- **AI:** Claude AI (Anthropic)
+- **Data:** 
+  - Alpha Vantage (US stocks)
+  - yfinance (Indian stocks)
+- **Language:** Python 3.13
+
+---
+
+## 📋 What You Get
+
+When you analyze a stock, you'll see:
+
+1. **Financial Metrics Dashboard**
+   - Market Cap
+   - PE Ratio
+   - Profit Margin
+   - Revenue Growth
+   - 52-Week High/Low
+   - Beta
+
+2. **AI Investment Analysis**
+   - 📊 Executive Summary
+   - ✅ Key Strengths
+   - ⚠️ Concerns
+   - 💡 Investment Thesis
+   - 🎯 Recommendation (BUY/HOLD/SELL)
+
+---
+
+## 💡 Example Output
