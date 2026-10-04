@@ -80,7 +80,7 @@ Cite exact numbers."""
                 
                 client = Anthropic(api_key=anthropic_key)
                 message = client.messages.create(
-                    model="claude-3-5-sonnet-20241022",
+                    model="claude-opus-5-5",
                     max_tokens=1000,
                     messages=[{"role": "user", "content": prompt}]
                 )
